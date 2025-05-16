@@ -179,7 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 6702437327814464425, guid: 454e0d19be297d0418ab61ac32b8abac, type: 3}
   bulletSpawnPositions: {fileID: 95369751}
-  shootForce: 2000
+  shootForce: 3500
 --- !u!114 &459763192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1485,7 +1485,7 @@ Transform:
   m_GameObject: {fileID: 2052202967}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.5190964, y: -33.43033, z: -3.1624985}
+  m_LocalPosition: {x: 50, y: -43.3, z: 22.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
