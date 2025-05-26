@@ -12,7 +12,7 @@ public class GameUIController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !startPanel.activeSelf)
         {
             optionPanel.SetActive(!optionPanel.activeSelf);
         }
@@ -41,4 +41,5 @@ public class GameUIController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
 }
