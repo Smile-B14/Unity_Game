@@ -549,6 +549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   raycastLength: 5
+  ShootPosition: {fileID: 6702437327814464425, guid: 454e0d19be297d0418ab61ac32b8abac, type: 3}
 --- !u!4 &557330607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1345513714864713535, guid: 560c82fbbd7c4f2499352e7311c38890, type: 3}
