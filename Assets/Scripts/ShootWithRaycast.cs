@@ -11,6 +11,8 @@ public class ShootWithRaycast : MonoBehaviour
             if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, raycastLength))
             {
                 Instantiate(bulletPrefab, hit.point, Quaternion.identity);
+
+                hit.transform.GetComponent<MeshRenderer>().material.color = new Color(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
             }
         }
         Debug.DrawRay(transform.position, transform.forward * raycastLength, Color.red);
