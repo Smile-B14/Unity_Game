@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ShootWithRaycast : MonoBehaviour
 {
-    [SerializeField] private float raycastLength;
+    [SerializeField] private float raycastLength = 8f;
     [SerializeField] private GameObject bulletPrefab;
     private void Update()
     {
